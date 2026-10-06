@@ -6,7 +6,7 @@ Built from a new project on October 6, 2026 for [Hacktoberfest Week 1: Touch Gra
 
 ![A request matched to an outdoor card](docs/02-matched-card.jpg)
 
-[Video walkthrough](https://raw.githubusercontent.com/widechaos/pocket-field/main/docs/demo.mp4) · [Mobile card](docs/03-outside-mobile.jpg) · [Downloaded text card](docs/sample-card.txt)
+[Video walkthrough](https://github.com/widechaos/pocket-field/blob/main/docs/demo.mp4) · [Mobile card](docs/03-outside-mobile.jpg) · [Downloaded text card](docs/sample-card.txt)
 
 ## Run locally
 
