@@ -1,0 +1,99 @@
+{
+  "description": "Eight author-written English diagnostic queries. No independent users or field test.",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "top1": 8,
+  "top3": 8,
+  "total": 8,
+  "median_ms": 4.86,
+  "cases": [
+    {
+      "query": "I want to hear rustling and chirping without moving",
+      "expected": "sound-map",
+      "top1": "sound-map",
+      "top3": [
+        "sound-map",
+        "weather-notice",
+        "leaf-lines"
+      ],
+      "milliseconds": 13.41
+    },
+    {
+      "query": "I'd like to doodle what I see from a bench",
+      "expected": "tiny-sketch",
+      "top1": "tiny-sketch",
+      "top3": [
+        "tiny-sketch",
+        "horizon",
+        "shadow-sketch"
+      ],
+      "milliseconds": 5.1
+    },
+    {
+      "query": "I want a stroll and conversation with a companion",
+      "expected": "friend-stroll",
+      "top1": "friend-stroll",
+      "top3": [
+        "friend-stroll",
+        "solo-stroll",
+        "cloud-story"
+      ],
+      "milliseconds": 4.9
+    },
+    {
+      "query": "I want to watch the shapes drifting above me",
+      "expected": "cloud-story",
+      "top1": "cloud-story",
+      "top3": [
+        "cloud-story",
+        "horizon",
+        "weather-notice"
+      ],
+      "milliseconds": 5.35
+    },
+    {
+      "query": "I'd like to compare changes in my potted plants",
+      "expected": "garden-check",
+      "top1": "garden-check",
+      "top3": [
+        "garden-check",
+        "leaf-lines",
+        "color-five"
+      ],
+      "milliseconds": 4.4
+    },
+    {
+      "query": "I want to study the veins and edges of a leaf",
+      "expected": "leaf-lines",
+      "top1": "leaf-lines",
+      "top3": [
+        "leaf-lines",
+        "color-five",
+        "weather-notice"
+      ],
+      "milliseconds": 4.79
+    },
+    {
+      "query": "I'd like to write a short poem using a sound and a color",
+      "expected": "pattern-poem",
+      "top1": "pattern-poem",
+      "top3": [
+        "pattern-poem",
+        "sound-map",
+        "shadow-sketch"
+      ],
+      "milliseconds": 4.67
+    },
+    {
+      "query": "I want a little walk to look at brick and stone patterns",
+      "expected": "texture-walk",
+      "top1": "texture-walk",
+      "top3": [
+        "texture-walk",
+        "shadow-sketch",
+        "city-tree"
+      ],
+      "milliseconds": 4.82
+    }
+  ]
+}
